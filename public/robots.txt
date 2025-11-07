@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /men
+Allow: /drops
+Allow: /about
+Allow: /support
+Allow: /auth/signin
+Allow: /auth/signup
+
+# Disallow admin/private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /profile/
+Disallow: /cart/
+Disallow: /_next/
+Disallow: /backend/
+
+# Sitemap
+Sitemap: https://gymwear-react.vercel.app/sitemap.xml
